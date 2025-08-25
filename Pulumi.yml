@@ -1,0 +1,7 @@
+name: kube-prometheus-stack
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+description: Prometheus Operator stack (kube-prometheus-stack) via Pulumi
+main: src/index.ts

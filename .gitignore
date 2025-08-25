@@ -1,0 +1,17 @@
+# Node/Bun
+node_modules/
+bun.lockb
+
+# Pulumi local state
+.pulumi/
+
+# Pulumi config files: keep core project + example, ignore others
+Pulumi.*.yaml
+!Pulumi.yaml
+!Pulumi.example.yaml
+
+# OS/editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

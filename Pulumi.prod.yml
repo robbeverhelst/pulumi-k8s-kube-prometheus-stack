@@ -1,0 +1,10 @@
+encryptionsalt: v1:mfRSy8XTrXs=:v1:/OVkv6GCmtRNAVum:b6HOCiP+X0A0LPXMlRSQaIkGFv8FIg==
+config:
+  kube-prometheus-stack:namespace: kube-prometheus-stack
+  kube-prometheus-stack:ingressClassName: cloudflare-tunnel
+  kube-prometheus-stack:grafanaHost: graf.robbeverhelst.com
+  kube-prometheus-stack:alertmanagerHost: alerts.robbeverhelst.com
+  kube-prometheus-stack:storageClass: truenas-hdd-mirror-iscsi
+  kube-prometheus-stack:prometheusStorageSize: 200Gi
+  kube-prometheus-stack:alertmanagerStorageSize: 10Gi
+  kube-prometheus-stack:grafanaStorageSize: 10Gi
