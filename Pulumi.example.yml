@@ -1,0 +1,10 @@
+encryptionsalt: FIXME-SET-BY-PULUMI
+config:
+  kube-prometheus-stack:namespace: kube-prometheus-stack
+  kube-prometheus-stack:ingressClassName: cloudflare-tunnel
+  kube-prometheus-stack:grafanaHost: graf.robbeverhelst.com
+  kube-prometheus-stack:alertmanagerHost: alerts.robbeverhelst.com
+  kube-prometheus-stack:storageClass: truenas-hdd-mirror-iscsi
+  kube-prometheus-stack:prometheusStorageSize: 200Gi
+  kube-prometheus-stack:alertmanagerStorageSize: 10Gi
+  kube-prometheus-stack:grafanaStorageSize: 10Gi

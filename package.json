@@ -1,0 +1,21 @@
+{
+  "name": "kube-prometheus-stack",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Pulumi stack to deploy kube-prometheus-stack on Kubernetes",
+  "type": "module",
+  "scripts": {
+    "up": "pulumi up --yes --stack ${PULUMI_STACK:-prod}",
+    "preview": "pulumi preview --stack ${PULUMI_STACK:-prod}",
+    "destroy": "pulumi destroy --yes --stack ${PULUMI_STACK:-prod}"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/kubernetes": "^4.12.0",
+    "@homelab/shared": "workspace:*"
+  },
+  "devDependencies": {},
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}
